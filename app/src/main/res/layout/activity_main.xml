@@ -17,6 +17,8 @@
         android:layout_height="200dp"
         app:autoPlaying="true"
         app:indicatorGravity="center"
+        app:indicatorSelected="@drawable/card_banner_selected_slide_indicator"
+        app:indicatorUnselected="@drawable/card_banner_unselected_slide_indicator"
         app:centerScale="1.2"
         app:itemSpace="20"
         app:moveSpeed="1.8"/>

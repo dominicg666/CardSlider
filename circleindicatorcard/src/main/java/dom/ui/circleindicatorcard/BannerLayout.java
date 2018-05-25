@@ -91,6 +91,9 @@ public class BannerLayout extends FrameLayout {
         itemSpace = a.getInt(R.styleable.BannerLayout_itemSpace, 20);
         centerScale = a.getFloat(R.styleable.BannerLayout_centerScale, 1.2f);
         moveSpeed = a.getFloat(R.styleable.BannerLayout_moveSpeed, 1.0f);
+
+        mSelectedDrawable = a.getDrawable(R.styleable.BannerLayout_indicatorSelected);
+        mUnselectedDrawable = a.getDrawable(R.styleable.BannerLayout_indicatorUnselected);
         if (mSelectedDrawable == null) {
 
             GradientDrawable selectedGradientDrawable = new GradientDrawable();

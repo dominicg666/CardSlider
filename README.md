@@ -53,7 +53,7 @@ Step 2. Add the dependency
 Adapter
     
     
-public class WebBannerAdapter extends RecyclerView.Adapter<WebBannerAdapter.MzViewHolder> {
+    public class WebBannerAdapter extends RecyclerView.Adapter<WebBannerAdapter.MzViewHolder> {
 
     private Context context;
     private List<String> urlList;
